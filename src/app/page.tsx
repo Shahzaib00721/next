@@ -2,26 +2,22 @@
 import React from 'react';
 import Navbar from './Navbar';
 import NewContact from './NewContact';
+import Parking from './Parking';
+import Footer from './Footer';
+import TicketPrices from './Tickets';
+import NewOut from './NewOut';
 import './globals.css';
 
 import Image from "next/image";
 // Importing the image directly
+
 import img from '../public/img.png'; // Save your image as /public/img.png
 import expoImage from "../public/expo.png"; // Save your image as /public/expo.png
-
 import img3 from "../public/img3.png"; // top me import
-
-
-
-
-
 import { Geist, Geist_Mono } from "next/font/google";
-
-
-
-
 export default function Home() {
   return (
+    <>
     <div className="relative min-h-screen bg-black pl-10 ">
       {/* Background Image */}
       <div className="absolute inset-0">
@@ -88,35 +84,18 @@ export default function Home() {
 
         
         </div>
-    <NewContact/>
         
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <main>
-     
-    </main>
-
-
     </div>
 
+    <NewContact/>
 
+    <NewOut/>
 
+    <TicketPrices/>
+
+    <Parking/>
+   </>
   );
    
 }

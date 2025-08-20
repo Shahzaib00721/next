@@ -3,21 +3,20 @@ import Image from "next/image";
 
 export default function NewContact() {
   return (
-    <section className="w-full bg-white py-8">
-      <div className="w-full max-w-5xl mx-auto flex flex-col items-center px-4">
-        
-        {/* Top Image */}
-        <div className="w-full relative aspect-[16/9] rounded-lg shadow-lg overflow-hidden">
-          <Image 
-            src="/img3.png" 
-            alt="contact" 
-            fill 
-            className="object-cover"
-            sizes="(max-width: 768px) 95vw, (max-width: 1280px) 80vw, 1024px"
-            priority
-          />
-        </div>
+    <section className="w-full bg-white  p-10">
+      {/* Full-screen Image */}
+      <div className="relative w-full h-screen">
+        <Image
+          src="/img3.png"
+          alt="contact"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
 
+      {/* Content Section */}
+      <div className="w-full max-w-5xl mx-auto flex-col items-center px-4 py-12">
         {/* Venue Text */}
         <p className="mt-3 text-center text-lg text-black">
           Happening at{" "}
@@ -27,10 +26,9 @@ export default function NewContact() {
         </p>
 
         {/* Date and Show Hours Section */}
-        <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 w-full">
-          
+        <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2 w-full">
           {/* Dates */}
-          <div className="rounded-xl border border-gray-900 p-6 text-black text-center shadow-md bg-white">
+          <div className="rounded-xl h-40  border border-gray-900 p-6 text-black text-center shadow-md bg-white">
             <h2 className="text-2xl font-bold text-green-900 underline decoration-green-800">
               DATES
             </h2>
@@ -52,7 +50,6 @@ export default function NewContact() {
               <li>Sunday 11:00 am – 5:00 pm</li>
             </ul>
           </div>
-          
         </div>
       </div>
     </section>
