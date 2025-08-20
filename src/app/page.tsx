@@ -6,7 +6,7 @@ import Parking from './Parking';
 import Footer from './Footer';
 import TicketPrices from './Tickets';
 import NewOut from './NewOut';
-import './globals.css';
+
 
 import Image from "next/image";
 // Importing the image directly
