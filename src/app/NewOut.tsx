@@ -21,7 +21,7 @@ export default function Home() {
         {/* Image Section */}
         <div className="w-full pl-10 pr-10">
           <Image 
-            src="/img8.svg" // Replace with your actual image
+            src="/image 8.svg" // Replace with your actual image
             alt="RV in desert"
             width={1000}
             height={900}
