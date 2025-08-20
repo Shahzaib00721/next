@@ -1,5 +1,4 @@
-// src/components/Footer.tsx
-"use client";
+
 import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {

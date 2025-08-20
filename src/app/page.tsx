@@ -95,6 +95,9 @@ export default function Home() {
     <TicketPrices/>
 
     <Parking/>
+
+    <Footer/>
+
    </>
   );
    
