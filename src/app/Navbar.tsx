@@ -31,7 +31,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="absolute top-13 right-7 w-70 h-150 bg-white text-black text-lg flex flex-col gap-7  p-3 shadow-lg ">
+        <div className="absolute top-13 right-7 w-65 h-150 bg-white text-black text-lg flex flex-col gap-7  p-3 shadow-lg ">
           {/* Cross Button */}
           <div className="gap-0">
           <button
