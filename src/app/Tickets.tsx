@@ -28,7 +28,7 @@ export default function Home() {
       
       {/* Center heading */}
       <h1 className="text-4xl md:text-5xl font-bold text-[#275640] mb-10 text-center">
-        Ticket Prices
+        TICKET PRICES
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
