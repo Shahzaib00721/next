@@ -6,11 +6,11 @@ export default function Home() {
     <div className="bg-white min-h-screen  flex flex-col items-start justify-center  py-12">
       
       {/* Heading */}
-      <div className=" mb-12 pl-10">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-green-800">
+      <div className=" mb-0 pl-10">
+        <h2 className="text-3xl md:text-6xl font-extrabold text-green-800">
           5 REASONS
         </h2>
-        <p className="text-lg md:text-xl text-gray-600">
+        <p className="text-lg md:text-2xl text-gray-600">
           To Attend <span className="font-bold text-green-800">Greater Philadelphia RV Show</span>
         </p>
       </div>
@@ -32,36 +32,36 @@ export default function Home() {
         {/* Reasons Section */}
         <div className="space-y-6 pl-7">
           <div>
-            <h1 className="text-2xl font-bold text-black">01.   Exclusive Show-Only</h1>
-            <p className="text-gray-600 text-sm mt-1">
+            <h1 className="text-3xl font-bold text-black">01.   Exclusive Show-Only</h1>
+            <p className="text-gray-600 text-medium mt-1">
               Special pricing, rebates, and financing offers available only at the show.
               Dealers competing means better prices on new and used RVs.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl  font-bold text-black">02.   Latest RV Models</h2>
-            <p className="text-gray-600 text-sm mt-1">
+            <h2 className="text-3xl  font-bold text-black ">02.   Latest RV Models</h2>
+            <p className="text-gray-600 text-medium mt-1">
               Explore brand-new 2025 RVs, campers, and trailers from top manufacturers.
               Discover the latest luxury interiors, solar power solutions, and off-grid technology.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl  font-bold text-black">03.   One-Stop Shop</h2>
-            <p className="text-gray-600 text-sm mt-1">
+            <h2 className="text-3xl  font-bold text-black">03.   One-Stop Shop</h2>
+            <p className="text-gray-600 text-medium mt-1">
               Browse hundreds of vendors offering RV essentials, outdoor gear, and camping must-haves.
               Find upgrades, solar kits, awnings, towing accessories, and more.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl   font-bold text-black">04.   Connect with Campgrounds</h2>
-            <p className="text-gray-600 text-sm mt-1">
+            <h2 className="text-3xl   font-bold text-black">04.   Connect with Campgrounds</h2>
+            <p className="text-gray-600 text-medium mt-1">
               Meet representatives from top-rated campgrounds and RV resorts.
               Plan your next adventure with exclusive discounts on campsites and memberships.
             </p>
           </div>
           <div>
-            <h2 className="text-2xl font-bold  text-black">05.   Fun for Whole Family</h2>
-            <p className="text-gray-600 text-sm mt-1">
+            <h2 className="text-3xl font-bold  text-black">05.   Fun for Whole Family</h2>
+            <p className="text-gray-600 text-medium mt-1">
               Giveaways, contests, and interactive exhibits throughout the show.
               Kid-friendly activities and live product demonstrations.
               Connect with fellow RVers and outdoor enthusiasts.

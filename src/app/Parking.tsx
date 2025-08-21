@@ -6,9 +6,9 @@ export default function Parking() {
   return (
     <section className="flex flex-col items-center justify-center px-4 py-12 bg-white">
       {/* Heading */}
-      <h2 className="text-3xl md:text-5xl font-bold text-green-900 mb-6 text-center">
+      <h2 className="text-3xl md:text-6xl font-bold text-green-900 mb-6 text-center">
         PARKING
-        <div className="mt-4 bg-green-800 w-55 h-0.5"></div>
+        <div className="mt-4 bg-green-800 w-68 h-0.5"></div>
       </h2>
 
       {/* Google Map Embed */}
@@ -25,7 +25,7 @@ export default function Parking() {
       </div>
 
       {/* Caption */}
-      <p className="mt-4 text-gray-600 text-center">
+      <p className="mt-4 text-gray-600 text-center text-2xl">
         Plenty of parking on site
       </p>
 

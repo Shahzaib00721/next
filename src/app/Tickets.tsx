@@ -98,7 +98,7 @@ export default function Home() {
         ))}
         
       </div>
-      <h3 className="text-1xl md:text-1xl font-bold text-black mb-10 text-center mt-10">
+      <h3 className="text-1xl md:text-2xl font-bold text-black mb-10 text-center mt-10">
         *Tickets can be purchased at the door
       </h3>
     </div>

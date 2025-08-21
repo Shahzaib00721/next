@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function NewContact() {
   return (
-    <section className="w-full bg-white  p-10">
+    <section className="w-full bg-white  pt-15 pr-30 pl-30">
       {/* Full-screen Image */}
       <div className="relative w-full h-screen">
         <Image
@@ -29,7 +29,7 @@ export default function NewContact() {
         <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2 w-full">
           {/* Dates */}
           <div className="rounded-xl h-40  border border-gray-900 p-6 text-black text-center shadow-md bg-white">
-            <h2 className="text-2xl font-bold text-green-900 underline decoration-green-800">
+            <h2 className="text-5xl font-bold text-green-900 underline decoration-green-800">
               DATES
             </h2>
             <p className="mt-3 text-lg">
@@ -40,10 +40,10 @@ export default function NewContact() {
 
           {/* Show Hours */}
           <div className="rounded-xl border border-gray-900 p-6 text-black text-center shadow-md bg-white">
-            <h2 className="text-2xl font-bold text-green-900 underline decoration-green-800">
+            <h2 className="text-5xl font-bold text-green-900 underline decoration-green-800">
               SHOW HOURS
             </h2>
-            <ul className="mt-3 space-y-1 text-lg">
+            <ul className="mt-3 space-y-1 text-lg font-bold">
               <li>Thursday 12:00 pm – 8:00 pm</li>
               <li>Friday 10:00 am – 8:00 pm</li>
               <li>Saturday 10:00 am – 8:00 pm</li>
