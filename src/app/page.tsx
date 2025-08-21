@@ -56,7 +56,7 @@ export default function Home() {
       </div>
 
       {/* Bottom Boxes */}
-      <div className="relative z-10 grid  md:grid-cols-3 gap-6 max-w-4xl mx-auto h-40 mt-20 px-6 justify-center  ">
+      <div className="relative  z-10 md:flex hidden md:block gap-6 max-w-4xl mx-auto h-40 mt-20 px-6 justify-center  ">
         <div className="bg-black/50 p-6 rounded-xl text-white w-60 border border-white/50 items-center">
           <h3 className="font-bold text-lg ">Latest RV Models</h3>
           <div className='h-0.5 w-45 mt-2 bg-white'></div>
