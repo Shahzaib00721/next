@@ -8,7 +8,7 @@ export default function Parking() {
       {/* Heading */}
       <h2 className="text-3xl md:text-5xl font-bold text-green-900 mb-6 text-center">
         PARKING
-        <div className="mt-4 bg-green-900 w-55 h-0.5"></div>
+        <div className="mt-4 bg-green-800 w-55 h-0.5"></div>
       </h2>
 
       {/* Google Map Embed */}
