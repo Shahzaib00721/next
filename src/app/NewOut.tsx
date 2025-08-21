@@ -74,7 +74,7 @@ export default function Home() {
       {/* Bottom Bar */}
 <div className="w-full bg-green-800 text-center py-8 mt-16">
   <p className="text-white text-lg px-4 sm:text-xl md:text-2xl">
-    The show is completely <span className="font-bold">indoors</span> so don't let the weather stop you.
+    The show is completely <span className="font-bold">indoors</span> so dont let the weather stop you.
   </p>
 </div>
 
