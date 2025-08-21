@@ -35,10 +35,11 @@ export default function Home() {
 
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-start justify-center text-left text-white px-6 pt-32">
-        <h1 className="text-3xl md:text-5xl font-extrabold leading-tight mt-10">
+        <h1 className="text-5xl md:text-5xl   font-extrabold leading-tight mt-10">
           The 2025 Greater <br /> Philadelphia RV <br/> Show
         </h1>
-        <p className="mt-4 max-w-2xl text-1x1 md:text-1xl">
+        <p className="mt-4 max-w-2xl text-2x1 md:text-1xl 
+letter-spacing: var(--tracking-tight);">
           Find the perfect RV, plan your adventure, and experience the freedom <br/>
           of the open road like never before.
         </p>
