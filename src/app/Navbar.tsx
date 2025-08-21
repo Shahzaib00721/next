@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="absolute top-0 left-0 w-full z-20 flex items-center justify-between px-8 py-7 bg-transparent text-white">
       {/* Logo */}
       <div className="flex items-center gap-2 pl-7">
-        <img src="/img2.png" alt="logo" className="h-20 w-20" />
+        <img src="/img2.png" alt="logo" className="h-30 w-30" />
         <span className="font-bold text-lg">RV SHOW</span>
       </div>
 
@@ -28,7 +28,7 @@ export default function Navbar() {
 
       {/* Mobile Menu div */}
       <div
-        className={`fixed top-0 right-0 h-full w-72 bg-white text-black transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-72 bg-white  text-black transform transition-transform duration-300 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -42,7 +42,7 @@ export default function Navbar() {
         {/* Menu Content */}
         <div className="flex flex-col items-start pr-6 pl-6 pb-6 gap-6">
           <div className="flex items-center gap-2">
-            <img src="/img2.png" alt="logo" className="h-15 w-15" />
+            <img src="/img2.png" alt="logo" className="h-20 w-20" />
             <span className="font-bold text-lg">RV SHOW</span>
           </div>
           <div className="flex items-center gap-2">
