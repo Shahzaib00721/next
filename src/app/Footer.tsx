@@ -1,4 +1,5 @@
-
+// src/components/Footer.tsx
+"use client";
 import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
@@ -60,7 +61,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Section */}
-      <div className="mt-12 text-center text-gray-400 text-sm">
+      <div className="mt-12 text-center text-gray-300 text-sm">
         <p>Copyright © 2025 <span className="font-bold text-white">Logo</span></p>
 
         {/* Social Icons */}
