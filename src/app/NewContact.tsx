@@ -27,7 +27,7 @@ export default function NewContact() {
         <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2 w-full">
   {/* Dates Card */}
   <div className="rounded-xl border border-gray-900 p-6 text-black text-center h-40 shadow-md bg-white">
-    <h2 className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-green-900 underline decoration-green-800">
+    <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-green-900 underline decoration-green-800">
       DATES
     </h2>
     <p className="mt-3 text-base sm:text-lg md:text-xl">
@@ -37,7 +37,7 @@ export default function NewContact() {
 
   {/* Show Hours Card */}
   <div className="rounded-xl border border-gray-900 p-6 text-black text-center shadow-md bg-white">
-    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-green-900 underline decoration-green-800">
+    <h2 className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-green-900 underline decoration-green-800">
       SHOW HOURS
     </h2>
     <ul className="mt-3 space-y-1 text-sm sm:text-base md:text-lg font-bold">

@@ -7,7 +7,7 @@ export default function Home() {
       
       {/* Heading */}
       <div className=" mb-0 pl-10">
-        <h2 className="text-3xl md:text-6xl font-extrabold text-green-800">
+        <h2 className="text-5xl md:text-6xl font-extrabold text-green-800">
           5 REASONS
         </h2>
         <p className="text-lg md:text-2xl text-gray-600">
