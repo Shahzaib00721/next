@@ -4,20 +4,20 @@ import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return ( 
-    <footer className="bg-[#0F241D] text-white pb-10 px-30 font-medium  text-xl">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-5">
+    <footer className="bg-[#0F241D] text-white pb-10 px-30 font-medium p-15 text-xl">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-">
         {/* Logo & About */}
         <div className="mt-10">
           <h2 className="text-lg font-medium font-open ">Logo</h2>
-          <p className="mt-16 text-gray-300 font-sans text-sm">
+          <p className="mt-10 text-gray-300 font-sans text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
         </div>
 
         {/* Product */}
-        <div className="mt-20"> 
-          <h3 className="font-semibold mb-2 ">Product</h3>
-          <ul className="space-y-2 text-sm text-gray-300 mt-2">
+        <div className="mt-8"> 
+          <h3 className="font-medium mb-2 ">Product</h3>
+          <ul className="space-y-2 text-sm text-gray-300 mt-6">
             <li>Landingpage</li>
             <li>Features</li>
             <li>Documentation</li>
@@ -27,9 +27,9 @@ export default function Footer() {
         </div>
 
         {/* Services */}
-        <div className="mt-20">
-          <h3 className="font-semibold mb-2">Services</h3>
-          <ul className="space-y-2 text-sm text-gray-300 mt-2">
+        <div className="mt-8">
+          <h3 className="font-medium mb-2">Services</h3>
+          <ul className="space-y-2 text-sm text-gray-300 mt-6">
             <li>Documentation</li>
             <li>Design</li>
             <li>Themes</li>
@@ -41,9 +41,9 @@ export default function Footer() {
         {/* Company */}
       
          
-        <div className="mt-20">
-          <h3 className="font-semibold mb-2">Company</h3>
-          <ul className="space-y-2 text-sm text-gray-300 mt-2">
+        <div className="mt-8">
+          <h3 className="font-medium mb-2">Company</h3>
+          <ul className="space-y-2 text-sm text-gray-300 mt-6">
             <li>About</li>
             <li>Terms</li>
             <li>Privacy Policy</li>
@@ -52,9 +52,9 @@ export default function Footer() {
         </div>
 
         {/* More */}
-        <div className="mt-20">
-          <h3 className="font-semibold mb-2">More</h3>
-          <ul className="space-y-2 text-sm text-gray-300 mt-2">
+        <div className="mt-8">
+          <h3 className="font-medium mb-2">More</h3>
+          <ul className="space-y-2 text-sm text-gray-300 mt-6">
             <li>Documentation</li>
             <li>License</li>
             <li>Changelog</li>

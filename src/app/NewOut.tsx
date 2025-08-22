@@ -8,9 +8,9 @@ import { Poppins } from 'next/font/google'
  
 
 
-export default function NewOut() {
+export default function ReasonsSection() {
   return (
-    <section className="w-full bg-white py-12 px-">
+    <section className="w-full bg-white py-12 ">
       {/* Section Title */}
       <div className="max-w-6xl mx-auto text-center md:text-left">
         <h2 className="text-6xl md:text-5xl font-bold text-gray-800">
