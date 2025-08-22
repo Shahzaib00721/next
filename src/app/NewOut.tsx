@@ -8,7 +8,7 @@ import { Poppins } from 'next/font/google'
  
 
 
-export default function ReasonsSection() {
+export default function NewOut() {
   return (
     <section className="w-full bg-white py-12 px-">
       {/* Section Title */}
@@ -43,7 +43,7 @@ export default function ReasonsSection() {
           {[
             {
               number: "01.",
-              title: "Exclusive Show–Only",
+              title: "Exclusive Show Only",
               desc: "Special pricing, rebates, and financing offers available only at the show. Dealers competing means better prices on new and used RVs."
             },
             {
