@@ -7,11 +7,8 @@ import Footer from './Footer';
 import TicketPrices from './Tickets';
 import NewOut from './NewOut';
 import { Open_Sans } from "next/font/google";
-
 import { X } from "lucide-react";
-
 import Image from "next/image";
-// Importing the image directly
 import { Nunito, Poppins, Inter } from "next/font/google";
 import img from '../public/img.png'; // Save your image as /public/img.png
 import expoImage from "../public/expo.png"; // Save your image as /public/expo.png
@@ -37,7 +34,7 @@ export default function Home() {
 
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-start justify-center text-left text-white px-6 pt-32">
-        <h1 className="text-4xl md:text-5xl font-poppins   font-extrabold leading-tight mt-15">
+        <h1 className="text-4xl md:text-5xl font-poppins   font-extrabold leading-tight mt-16">
           The 2025 Greater <br /> Philadelphia RV <br/> Show
         </h1>
         <p className="mt-4 max-w-2xl font-inter text-2x1 md:text-1xl 
