@@ -28,7 +28,7 @@ export default function ReasonsSection() {
   <div className="w-full max-w-[850px] relative rounded-[30px] overflow-hidden shadow-lg 
                   h-[350px] sm:h-[350px] md:h-[480px]">
     <Image
-      src="/image 8.svg" // Replace with your image path
+      src="/image 8.svg" 
       alt="RV in desert"
       fill
       className="object-cover"
@@ -82,7 +82,7 @@ export default function ReasonsSection() {
          <p className="text-white text-lg px-4 sm:text-xl md:text-2xl">
              The show is completely <span className="font-bold">indoors</span> so dont let the weather stop you.
          </p>
-       </div>
+</div>
     </section>
   );
 }
