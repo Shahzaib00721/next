@@ -4,20 +4,20 @@ import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return ( 
-    <footer className="bg-[#0F241D] text-white py-12 px-6 text-2xl">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+    <footer className="bg-[#0F241D] text-white pb-10 px-30 font-medium  text-xl">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-5">
         {/* Logo & About */}
-        <div>
-          <h2 className="text-lg font-bold">Logo</h2>
-          <p className="mt-4 text-gray-300 text-sm">
+        <div className="mt-10">
+          <h2 className="text-lg font-medium font-open ">Logo</h2>
+          <p className="mt-16 text-gray-300 font-sans text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
         </div>
 
         {/* Product */}
-        <div>
-          <h3 className="font-semibold mb-4">Product</h3>
-          <ul className="space-y-2 text-sm text-gray-300">
+        <div className="mt-20"> 
+          <h3 className="font-semibold mb-2 ">Product</h3>
+          <ul className="space-y-2 text-sm text-gray-300 mt-2">
             <li>Landingpage</li>
             <li>Features</li>
             <li>Documentation</li>
@@ -27,9 +27,9 @@ export default function Footer() {
         </div>
 
         {/* Services */}
-        <div>
-          <h3 className="font-semibold mb-4">Services</h3>
-          <ul className="space-y-2 text-sm text-gray-300">
+        <div className="mt-20">
+          <h3 className="font-semibold mb-2">Services</h3>
+          <ul className="space-y-2 text-sm text-gray-300 mt-2">
             <li>Documentation</li>
             <li>Design</li>
             <li>Themes</li>
@@ -39,9 +39,11 @@ export default function Footer() {
         </div>
 
         {/* Company */}
-        <div>
-          <h3 className="font-semibold mb-4">Company</h3>
-          <ul className="space-y-2 text-sm text-gray-300">
+      
+         
+        <div className="mt-20">
+          <h3 className="font-semibold mb-2">Company</h3>
+          <ul className="space-y-2 text-sm text-gray-300 mt-2">
             <li>About</li>
             <li>Terms</li>
             <li>Privacy Policy</li>
@@ -50,9 +52,9 @@ export default function Footer() {
         </div>
 
         {/* More */}
-        <div>
-          <h3 className="font-semibold mb-4">More</h3>
-          <ul className="space-y-2 text-sm text-gray-300">
+        <div className="mt-20">
+          <h3 className="font-semibold mb-2">More</h3>
+          <ul className="space-y-2 text-sm text-gray-300 mt-2">
             <li>Documentation</li>
             <li>License</li>
             <li>Changelog</li>
@@ -61,11 +63,11 @@ export default function Footer() {
       </div>
 
       {/* Bottom Section */}
-      <div className="mt-12 text-center text-gray-300 text-sm">
+      <div className="mt-30 text-center text-gray-300 text-sm">
         <p>Copyright © 2025 <span className="font-bold text-white">Logo</span></p>
 
         {/* Social Icons */}
-        <div className="flex justify-center space-x-6 mt-6 text-lg">
+        <div className="flex justify-center space-x-6 mt-15 text-lg">
           <FaGoogle className="cursor-pointer hover:text-white" />
           <FaTwitter className="cursor-pointer hover:text-white" />
           <FaInstagram className="cursor-pointer hover:text-white" />

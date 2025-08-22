@@ -24,7 +24,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen bg-gray-100 p-6">
+    <div className="flex flex-col justify-center items-center min-h-screen  px-6">
       
       {/* Center heading */}
       <h1 className="text-4xl md:text-5xl font-bold text-[#275640] mb-10 text-center">
@@ -47,8 +47,8 @@ export default function Home() {
                 <Image
                   src={card.image}
                   alt={card.location}
-                  width={200}
-                  height={120}
+                  width={180}
+                  height={100}
                   className="rounded-md object-cover"
                 />
               </div>
@@ -70,25 +70,25 @@ export default function Home() {
                        2.5-1.12 2.5-2.5 2.5z"
                   />
                 </svg>
-                <span>{card.location}</span>
+                <span className="text-1x1">{card.location}</span>
               </div>
               <div className="text-right">
-                <span className="block text-xs">From</span>
-                <span className="block text-2xl font-bold">{card.price}</span>
+                <span className="block text-1x1">From</span>
+                <span className="block text-3xl font-bold">{card.price}</span>
               </div>
             </div>
 
             {/* Bottom perforation */}
             <div className="relative">
-              <div className="h-3 bg-gray-100 flex">
-                {Array.from({ length: 25 }).map((_, i) => (
+              <div className="h-3  bg-gray-100 flex">
+                {Array.from({ length: 16 }).map((_, i) => (
                   <div
                     key={i}
-                    className="w-2 h-3 bg-[#275640] rounded-t-full"
+                    className="w-4 h-3 bg-[#275640] rounded-t-full"
                   />
                 ))}
               </div>
-              <div className="bg-[#275640] h-12 transform rotate-[-2deg]" />
+              <div className="bg-[#275640] h-15 w-30 transform rotate-[4deg]" />
 
               
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
         ))}
         
       </div>
-      <h3 className="text-1xl md:text-2xl font-bold text-black mb-10 text-center mt-10">
+      <h3 className="text-1xl md:text-1xl font-bold text-black mb-10 text-center mt-10">
         *Tickets can be purchased at the door
       </h3>
     </div>

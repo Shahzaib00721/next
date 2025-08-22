@@ -1,24 +1,30 @@
 "use client";
 import { useState } from "react";
-
+import { X } from "lucide-react";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-20 flex items-center justify-between px-8 py-7 bg-transparent text-white">
+    <nav className="absolute  top-0 left-0 w-full z-20 flex items-center justify-between px-8 py-7 bg-transparent text-white">
       {/* Logo */}
       <div className="flex items-center gap-2 pl-7">
-        <img src="/img2.png" alt="logo" className="h-30 w-30" />
-        <span className="font-bold text-lg">RV SHOW</span>
-      </div>
+  <img 
+    src="/img2.png"
+    alt="logo"
+    className="h-[159px] w-[159px]"
+    draggable="false" 
+  />
+ 
+</div>
+
 
       {/* Desktop Links */}
-      <ul className="hidden md:flex gap-6 font-medium text-center text-lg">
-        <li><a href="#" className="hover:text-gray-300">Home</a></li>
-        <li><a href="#" className="hover:text-gray-300">Directions</a></li>
-        <li><a href="#" className="hover:text-gray-300">Discount Coupons</a></li>
-        <li><a href="#" className="hover:text-gray-300">Gallery</a></li>
-        <li><a href="#" className="hover:text-gray-300">Dealers</a></li>
+      <ul className="hidden md:flex gap-7  text-center font-semibold   text-lg">
+        <li><a href="#" className="hover:text-gray-300"style={{ fontFamily: 'Nunito, sans-serif' }}>Home</a></li>
+        <li><a href="#" className="hover:text-gray-300" style={{ fontFamily: 'Nunito, sans-serif' }}>Directions</a></li>
+        <li><a href="#" className="hover:text-gray-300"style={{ fontFamily: 'Nunito, sans-serif' }}>Discount Coupons</a></li>
+        <li><a href="#" className="hover:text-gray-300"style={{ fontFamily: 'Nunito, sans-serif' }}>Gallery</a></li>
+        <li><a href="#" className="hover:text-gray-300"style={{ fontFamily: 'Nunito, sans-serif' }}>Dealers</a></li>
       </ul>
 
       {/* Hamburger */}
@@ -33,19 +39,30 @@ export default function Navbar() {
         }`}
       >
         {/* Cross Button - Left Side */}
-        <div className="flex justify-start p-4">
-          <button onClick={() => setOpen(false)} className="text-2xl">
-            ✖
-          </button>
-        </div>
+   <div className="flex justify-start px-4 pt-4">
+  <button 
+    onClick={() => setOpen(false)} 
+    className="focus:outline-none"
+    aria-label="Close menu"
+  >
+    <X className="w-8 h-8 font-bold text-black" />
+  </button>
+</div>
+
 
         {/* Menu Content */}
         <div className="flex flex-col items-start pr-6 pl-6 pb-6 gap-6">
           <div className="flex items-center gap-2">
-            <img src="/img2.png" alt="logo" className="h-20 w-20" />
-            <span className="font-bold text-lg">RV SHOW</span>
+          
+          <img 
+    src="/img2.png"
+    alt="logo"
+    className="h-[71px] w-[71px]"
+    draggable="false" 
+    />
+           
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 -gray-900">
             <img src="/icon1.svg" alt="home" />
             <span>Home</span>
           </div>
