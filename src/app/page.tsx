@@ -11,8 +11,8 @@ import { X } from "lucide-react";
 import Image from "next/image";
 import { Nunito, Poppins, Inter } from "next/font/google";
 import img from '../public/img.png'; 
-import expoImage from "../public/expo.png"; // Save your image as /public/expo.png
-import img3 from "../public/img3.png"; // top me import
+import expoImage from "../public/expo.png"; 
+import img3 from "../public/img3.png"; 
 import { Geist, Geist_Mono } from "next/font/google";
 export default function Home() {
   return (
@@ -28,11 +28,11 @@ export default function Home() {
         <div className="absolute inset-0 h-210 bg-gradient-to-b from-black/40" />
       </div>
 
-      {/* Navbar */}
+     
       <Navbar />
       
 
-      {/* Hero Content */}
+     
       <div className="relative z-10 flex flex-col items-start justify-center text-left text-white px-6 pt-32">
         <h1 className="text-4xl md:text-5xl font-poppins   font-extrabold leading-tight mt-16">
           The 2025 Greater <br /> Philadelphia RV <br/> Show
