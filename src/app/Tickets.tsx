@@ -27,7 +27,7 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center min-h-screen  px-6">
       
       {/* Center heading */}
-      <h1 className="text-4xl md:text-5xl font-bold text-[#275640] mb-10 text-center">
+      <h1 className="text-4xl md:text-5xl font-extrabold text-[#275640] mb-10 text-center">
         TICKET PRICES
       </h1>
 
@@ -88,7 +88,7 @@ export default function Home() {
                   />
                 ))}
               </div>
-              <div className="bg-[#275640] h-15 w-30 transform rotate-[4deg]" />
+              <div className="bg-[#275640] h-15  transform rotate-[4deg]" />
 
               
             </div>
