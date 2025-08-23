@@ -4,10 +4,8 @@ import Navbar from './Navbar';
 import NewContact from './NewContact';
 import Parking from './Parking';
 import Footer from './Footer';
-import TicketPrices from './Tickets';
+import Tickets from './Tickets';
 import NewOut from './NewOut';
-
-
 import Image from "next/image";
 import { Nunito, Poppins, Inter } from "next/font/google";
 import expoImage from "../public/expo.png"; 
@@ -90,7 +88,7 @@ export default function Home() {
 
     <NewOut/>
 
-    <TicketPrices/>
+    <Tickets/>
 
     <Parking/>
 
