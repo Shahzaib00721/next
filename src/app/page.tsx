@@ -34,9 +34,9 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-poppins   font-extrabold leading-tight mt-16">
           The 2025 Greater <br /> Philadelphia RV <br/> Show
         </h1>
-        <p className="mt-4 max-w-2xl font-inter text-2xl md:text-1xl 
+        <p className="mt-4 max-w-2xl font-medium text-xl md:text-xl 
           letter-spacing: var(--tracking-tight);">
-          Find the perfect RV, plan your adventure, and experience the freedom <br/>
+          Find the perfect RV, plan your adventure, and experience the freedom 
           of the open road like never before.
         </p>
 

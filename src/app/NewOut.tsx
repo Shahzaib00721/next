@@ -12,11 +12,14 @@ export default function ReasonsSection() {
   return (
     <section className="w-full bg-white py-12 ">
       {/* Section Title */}
-      <div className="max-w-6xl mx-auto text-center md:text-left">
+      <div className="max-w-6xl mx-auto text-center md:text-left pl-6">
         <h2 className="text-6xl md:text-5xl font-bold text-gray-800">
-          <span className=" text-green-700 font-poppins">5 REASONS</span>
+         <span className="font-poppins text-green-700 text-5xl sm:text-8xl md:text-6xl lg:text-8xl xl:text-[96px]">
+  5 REASONS
+</span>
+
         </h2>
-        <p className="text-lg md:text-xl text-gray-700 mt-2 font-poppins">
+        <p className="text-lg md:text-xl text-gray-700 mt-2 font-poppins ">
           To Attend <span className=" text-2xl md:text-1x1 font-bold text-green-700">Greater Philadelphia RV Show</span>
         </p>
       </div>
@@ -78,11 +81,12 @@ export default function ReasonsSection() {
         </div>
       </div>
 
-      <div className="w-full bg-green-800 text-center py-8 mt-16">
-         <p className="text-white text-lg px-4 sm:text-xl md:text-2xl">
-             The show is completely <span className="font-bold">indoors</span> so dont let the weather stop you.
-         </p>
+     <div className="w-full bg-green-800 text-center py-8 mt-16 flex items-center justify-center">
+  <p className="text-white text-xl px-4 sm:text-2xl md:text-3xl lg:text-4xl xl:text-[48px]">
+    The show is completely <span className="font-bold">indoors</span> so don’t let the weather stop you.
+  </p>
 </div>
+
     </section>
   );
 }

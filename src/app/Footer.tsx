@@ -4,11 +4,11 @@ import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return ( 
-    <footer className="bg-[#0F241D] text-white pb-10 font-medium p-16 text-xl">
+    <footer className="bg-[#0F241D] text-white text-start justify-center pb-10 font-medium p-15  text-xl">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5">
         {/* Logo & About */}
         <div className="mt-10">
-          <h2 className="text-lg font-medium font-open ">Logo</h2>
+          <h2 className="text-lg font-medium font-poppins ">Logo</h2>
           <p className="mt-10 text-gray-300 font-sans text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
@@ -16,7 +16,7 @@ export default function Footer() {
 
         {/* Product */}
         <div className="mt-8"> 
-          <h3 className="font-medium mb-2 ">Product</h3>
+          <h3 className="font-medium mb-2 size-[18px] ">Product</h3>
           <ul className="space-y-3 text-sm text-gray-300 mt-6">
             <li>Landingpage</li>
             <li>Features</li>
@@ -28,7 +28,7 @@ export default function Footer() {
 
         {/* Services */}
         <div className="mt-8">
-          <h3 className="font-medium mb-2">Services</h3>
+          <h3 className="font-medium mb-2 size-[18px] ">Services</h3>
           <ul className="space-y-2 text-sm text-gray-300 mt-6">
             <li>Documentation</li>
             <li>Design</li>
@@ -42,7 +42,7 @@ export default function Footer() {
       
          
         <div className="mt-8">
-          <h3 className="font-medium mb-2">Company</h3>
+          <h3 className="font-medium mb-2 size-[18px] ">Company</h3>
           <ul className="space-y-2 text-sm text-gray-300 mt-6">
             <li>About</li>
             <li>Terms</li>
@@ -53,7 +53,7 @@ export default function Footer() {
 
         {/* More */}
         <div className="mt-8">
-          <h3 className="font-medium mb-2">More</h3>
+          <h3 className="font-medium mb-2 size-[18px] ">More</h3>
           <ul className="space-y-2 text-sm text-gray-300 mt-6">
             <li>Documentation</li>
             <li>License</li>
