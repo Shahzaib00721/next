@@ -10,7 +10,7 @@ import { Open_Sans } from "next/font/google";
 import { X } from "lucide-react";
 import Image from "next/image";
 import { Nunito, Poppins, Inter } from "next/font/google";
-import img from '../public/img.png'; // Save your image as /public/img.png
+import img from '../public/img.png'; 
 import expoImage from "../public/expo.png"; // Save your image as /public/expo.png
 import img3 from "../public/img3.png"; // top me import
 import { Geist, Geist_Mono } from "next/font/google";
@@ -50,7 +50,6 @@ letter-spacing: var(--tracking-tight);">
           </button>
           <button className="px-4 py-2  text-white font-inter font-semibold rounded-full hover:bg-white hover:text-black">
             Show Display Map
-            
           </button>
         </div>
       </div>
