@@ -6,14 +6,13 @@ import Parking from './Parking';
 import Footer from './Footer';
 import TicketPrices from './Tickets';
 import NewOut from './NewOut';
-import { Open_Sans } from "next/font/google";
-import { X } from "lucide-react";
+
+
 import Image from "next/image";
 import { Nunito, Poppins, Inter } from "next/font/google";
-import img from '../public/img.png'; 
 import expoImage from "../public/expo.png"; 
 import img3 from "../public/img3.png"; 
-import { Geist, Geist_Mono } from "next/font/google";
+
 export default function Home() {
   return (
     <>
@@ -37,8 +36,8 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-poppins   font-extrabold leading-tight mt-16">
           The 2025 Greater <br /> Philadelphia RV <br/> Show
         </h1>
-        <p className="mt-4 max-w-2xl font-inter text-2x1 md:text-1xl 
-letter-spacing: var(--tracking-tight);">
+        <p className="mt-4 max-w-2xl font-inter text-2xl md:text-1xl 
+          letter-spacing: var(--tracking-tight);">
           Find the perfect RV, plan your adventure, and experience the freedom <br/>
           of the open road like never before.
         </p>
