@@ -30,9 +30,9 @@ export default function Parking() {
       </p>
 
       {/* Contact Info */}
-      <p className="mt-6 mb-4 text-lg md:text-xl text-center text-black">
+      <p className="mt-12 mb-4 text-lg md:text-2xl font-medium text-center text-black">
         Please call{" "}
-        <span className="font-bold text-black">(800) 290-6886</span> for
+        <span className="font-extrabold text-black">(800) 290-6886</span> for
         additional information
       </p>
     </section>

@@ -21,7 +21,7 @@ export default function NewContact() {
 
 
       {/* Content Section */}
-      <div className="w-full max-w-5xl mx-auto flex flex-col items-center px-4 py-12 relative z-10 bg-white">
+      <div className="w-full max-w-5xl mx-auto flex flex-col items-center px-4 pb-12 p-3 relative z-10 bg-white">
         {/* Venue Text */}
         <p className="mt-3 text-center text-lg text-black font-poppins">
           Happening at{" "}
