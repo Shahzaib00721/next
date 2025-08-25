@@ -14,7 +14,7 @@ import img3 from "../public/img3.png";
 export default function Home() {
   return (
     <>
-    <div className="relative min-h-screen p-6 ">
+    <div className="relative min-h-screen ">
       {/* Background Image */}
       <div className="absolute inset-0  ">
         <img className="w-full h-210 object-cover * bg-cover * bg-center "

@@ -5,9 +5,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="absolute  top-0 left-0 w-full z-20 flex items-center justify-between px-8 py-7 bg-transparent text-white">
+    <nav className="absolute  top-0 left-0 w-full z-20 flex items-center justify-between pr-8 pl-4 py-7 bg-transparent text-white">
       {/* Logo */}
-      <div className="flex items-center gap-2 pl-3">
+      <div className="flex items-center gap-2 ">
   <img 
     src="/img2.png"
     alt="logo"
