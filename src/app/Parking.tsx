@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Parking() {
   return (
-    <section className="flex flex-col items-center justify-center px-4  bg-white p-6">
+    <section className="flex flex-col items-center justify-center  bg-white p-6">
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-green-900 mb-6 text-center">
         PARKING
