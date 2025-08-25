@@ -24,7 +24,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen  px-6 ">
+    <div className="flex flex-col justify-center items-center min-h-screen  p-6 px-6 ">
       
       {/* Center heading */}
       <h1 className="text-4xl md:text-5xl font-extrabold text-[#275640] mb-10 text-center">

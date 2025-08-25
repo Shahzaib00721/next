@@ -10,39 +10,39 @@ import { Poppins } from 'next/font/google'
 
 export default function ReasonsSection() {
   return (
-    <section className="w-full bg-white py-12 ">
+    <section className="w-full bg-white py-12  ">
       {/* Section Title */}
-      <div className="max-w-6xl mx-auto text-center md:text-left pl-6">
+      <div className="max-w-6xl mx-auto text-center md:text-left pl-6 p-6">
         <h2 className="text-6xl md:text-5xl font-bold text-gray-800">
          <span className="font-poppins text-green-700 text-5xl sm:text-8xl md:text-6xl lg:text-8xl xl:text-[96px]">
-  5 REASONS
-</span>
+         5 REASONS
+       </span>
 
         </h2>
         <p className="text-lg md:text-xl text-gray-700 mt-2 font-poppins ">
           To Attend <span className=" text-2xl md:text-1x1 font-bold text-green-700">Greater Philadelphia RV Show</span>
         </p>
-      </div>
+       </div>
 
-      {/* Content Grid */}
-      <div className="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+       {/* Content Grid */}
+       <div className="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Image */}
         <div className="w-full py-2 px-5 flex justify-center">
-  <div className="w-full max-w-[850px] relative rounded-[30px] overflow-hidden shadow-lg 
+       <div className="w-full max-w-[850px] relative rounded-[30px] overflow-hidden shadow-lg 
                   h-[350px] sm:h-[350px] md:h-[480px]">
-    <Image
-      src="/image 8.svg" 
-      alt="RV in desert"
-      fill
-      className="object-cover"
-      priority
-    />
-  </div>
-</div>
+       <Image
+       src="/image 8.svg" 
+       alt="RV in desert"
+       fill
+       className="object-cover"
+       priority
+        />
+       </div>
+       </div>
 
 
         {/* Right Text */}
-        <div className="space-y-15 ">
+        <div className="space-y-15 pr-6 ">
           {[
             {
               number: "01.",
@@ -70,7 +70,7 @@ export default function ReasonsSection() {
               desc: "Giveaways, contests, and interactive exhibits throughout the show. Kid-friendly activities and live product demonstrations. Connect with fellow RVers and outdoor enthusiasts."
             }
           ].map((item) => (
-            <div key={item.number} className="flex items-start m-0 p-1  pl-7 space-x-12">
+            <div key={item.number} className="flex items-start m-0 p-1  pl-7 space-x-3">
               <span className="text-3xl font-medium text-black flex-shrink-0">{item.number}</span>
               <div>
                 <h3 className="text-3xl font-medium font-poppins text-gray-900  " >{item.title}</h3>

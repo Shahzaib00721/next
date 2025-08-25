@@ -3,25 +3,37 @@ import Image from "next/image";
 
 export default function NewContact() {
   return (
-    <section className="w-full bg-white  ">
+    <section className="w-full bg-white pl-6 pr-6  pb-6">
       {/* Full-screen Image */}
-      <div className="px-4 md:px-10 lg:px-20">
-  <div className="relative w-full mt-45" style={{ minHeight: "300px" }}>
-    <div className="relative w-full h-[40vh] sm:h-[50vh] md:h-[70vh] lg:h-screen">
-      <Image
-        src="/img3.png"
-        alt="contact"
-        fill
-        className="object-cover rounded-lg"
-        priority
-      />
-    </div>
+      <div className="">
+  <div className="relative w-full mt-40 md:px-[70px]" style={{ minHeight: "300px" }}>
+   <div className="relative w-full flex justify-center ">
+ <Image
+  src="/image 4.svg"
+  alt="contact"
+  unoptimized
+  width={1443}   // fallback width
+  height={862}   // fallback height
+  className="object-contain 
+             w-[1000px]    
+             sm:w-[1100px] 
+             md:w-[1200px] 
+             lg:w-[1300px] 
+             xl:w-[1443px] 
+             h-auto rounded-lg mx-auto "
+  priority
+/>
+
+
+
+</div>
+
   </div>
 </div>
 
 
       {/* Content Section */}
-      <div className="w-full max-w-5xl mx-auto flex flex-col items-center px-4 pb-12 p-3 relative z-10 bg-white">
+      <div className="w-full max-w-5xl mx-auto flex flex-col items-center px-4 pb-12 p-6 relative z-10 bg-white">
         {/* Venue Text */}
         <p className="mt-3 text-center text-lg text-black font-poppins">
           Happening at{" "}

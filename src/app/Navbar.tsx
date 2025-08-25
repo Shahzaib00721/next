@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="absolute  top-0 left-0 w-full z-20 flex items-center justify-between px-8 py-7 bg-transparent text-white">
       {/* Logo */}
-      <div className="flex items-center gap-2 pl-7">
+      <div className="flex items-center gap-2 pl-3">
   <img 
     src="/img2.png"
     alt="logo"
