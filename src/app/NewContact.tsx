@@ -9,7 +9,7 @@ export default function NewContact() {
   <div className="relative w-full mt-40 md:px-[70px]" style={{ minHeight: "300px" }}>
    <div className="relative w-full flex justify-center ">
  <Image
-  src="/image 4.svg"
+  src="/img8.png"
   alt="contact"
   unoptimized
   width={1443}   // fallback width
